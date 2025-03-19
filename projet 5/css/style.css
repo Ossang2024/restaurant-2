@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Faculty+Glyphic&family=Gothic+A1&family=Great+Vibes&family=League+Spartan:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Faculty+Glyphic&family=Gothic+A1&family=Great+Vibes&family=League+Spartan:wght@100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Faculty+Glyphic&family=Gothic+A1&family=Great+Vibes&family=League+Spartan:wght@100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Faculty+Glyphic&family=Gothic+A1&family=League+Spartan:wght@100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Faculty+Glyphic&family=Gothic+A1&family=League+Spartan:wght@100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Faculty+Glyphic&family=Gothic+A1&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Faculty+Glyphic&family=Gothic+A1&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Estonia&family=Faculty+Glyphic&family=Gothic+A1&family=Great+Vibes&family=League+Spartan:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal; 
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
+/* MODELISATION DE LA 1ER PARTIE */
+.section1{
+    background-image: url(../images/capture\ bg1.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh ;
+    width: 100%;
+}
+
+.section1 .all {
+    background-color: rgba(0, 0, 0, 0.603);
+    height: 100vh;
+    width: 100%;
+}
+
+.section1 .all .nav {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    gap: 30px;
+    padding-left: 100px;
+}
+
+.section1 .all .nav p {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.section1 .all .nav p img {
+    height: 17px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.section1 .all header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.488);
+}
+
+.section1 .all header .logo p {
+    text-transform: capitalize;
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic; 
+}
+
+.section1 .all header .list ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section1 .all header .list ul a,li {
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: ease-in-out 0.5s ;
+}
+
+.section1 .all header .list ul a:hover {
+    color: rgb(234,179,0);
+}
+
+.sepr {
+    font-size: 30px;
+}
+
+.section1 .all header .list ul li img {
+    height: 30px;
+    /* width: 20px; */
+}
+
+.section1 .all header .list ul li .booking {
+    background-color: rgb(234,179,0);
+    padding: 7px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: ease-in-out 0.5s;
+}
+
+.section1 .all header .list ul li .booking:hover {
+    background-color: rgb(172, 132, 1);
+    color: white;
+}
+
+.section1 .all .midle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section1 .all .midle p:first-child {
+    text-transform: capitalize;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic; 
+}
+
+.section1 .all .midle p:last-child {
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic; 
+}
+
+
+
+
+
+
+
+
+
+/* MODELISATION DE LA SECONDE PARTIE */
+.section2 {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 100px;
+}
+
+.section2 .ttle {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 .ttle p:first-child {
+    color: rgb(234,179,0);
+    text-transform: capitalize;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic; 
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.section2 .ttle .last {
+    color: rgb(15, 24, 32);
+    text-transform: capitalize;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic; 
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.section2 .ttle h1,img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    height: 50px;
+    margin: 0px 10px;
+}
+
+.section2 .ttle h1 hr {
+    display: inline-block;
+    width:100px ;
+    text-align: center ;
+    border: 1px solid rgb(15, 24, 32);
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.section2 .about p {
+    text-align:  center;
+    color: rgb(50, 53, 57);
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.section2 .about p span {
+    color: rgb(234,179,0);
+}
+
+.section2 .about p strong {
+    font-size: 20px;
+}
+
+.section2 .grigri {
+    height: 290px;
+    position: absolute;
+    right: -10px;
+    top: 103vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MODELISATION DE LA troisiemE PARTIE */
+.section3 {
+    width: 100%;
+    min-height: 100vh;
+    /* padding: 70px 100px; */
+    background-image: url(../images/reservation.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section3 .all {
+    background-color: rgba(0, 0, 0, 0.603);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+.section3 form {
+    background-color: rgba(0, 0, 0, 0.778);
+    padding: 20px;
+}
+
+.section3 form h1 {
+    color: rgb(234,179,0);
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.section3 h1,img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    height: 30px;
+    margin: 0px 10px;
+}
+
+.section3 h1 hr {
+    display: inline-block;
+    width:60px ;
+    text-align: center ;
+    border: 1px solid rgb(15, 24, 32);
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.section3 form input {
+    width: 49.5%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.section3 form textarea {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section3 form .send {
+    text-align: center;
+    background-color: rgb(234,179,0);
+    color: white;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.section3 form input:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
